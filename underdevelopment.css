@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+}
+
+h1, h3, h5, p {
+  width: 100%;
+  font-family: "adobe-caslon-pro", "georgia", serif;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+img {
+  width: 20%;
+  margin: auto;
+  display: block;
+}
+
+#links {
+  width: 1em;
+  display: inline;
+  position: relative;
+  bottom: -0.2em;
+}
+
+#email{
+  font-weight: bold;
+}
