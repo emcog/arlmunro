@@ -9,6 +9,8 @@ gulp.task('styles', () => {
 
 gulp.task('watch', () => {
   gulp.watch('./sass/**/*.scss', ['styles']);
+  //gulp.watch('./sass/*.scss', ['styles']);
+
 })
 
 gulp.task('default', ['styles']);

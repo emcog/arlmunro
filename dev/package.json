@@ -9,7 +9,9 @@
     "gulp-sass": "^3.1.0",
     "lite-server": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  },
   "scripts": {
     "start": "npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\"",
     "lite": "lite-server",

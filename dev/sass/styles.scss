@@ -1,5 +1,39 @@
-$primary-color: #1A1A1A;
+@import "furtive/all.scss";
+
+$primary-color: #fefefe;
 
 body {
   background-color: $primary-color;
+  position: relative;
+}
+
+.background-image {
+    position: relative;
+    // top: 0px;
+  // z-index: -1;
+  }
+
+.foreground-text {
+     position: relative;
+     top:30px;
+     z-index: 1;
+   }
+
+.red {
+  color: red;
+}
+
+.header {
+  position: relative;
+  z-index: 0;
+}
+
+.bdy {
+  position: relative;
+  z-index: 0;
+}
+
+.header{
+  background-image: url("../assets/Dubai-design-fashion-council.jpg");
+  height: 100%;
 }
